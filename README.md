@@ -57,4 +57,28 @@ Gli utenti possono registrarsi, autenticarsi, cercare contenuti tramite l’API 
    ```bash
    git clone https://github.com/giadaperno/Node_esameint.git
     ```
+2. Spostati nella cartella esami
+   ```bash
+   cd esame
+    ```
+3. Installa tutte le dipendenze
+   ```bash
+   npm install
+    ```
+4. Crea un file .env con le seguenti variabili
+   ```bash
+    DB_HOST=xxxxxxxxxxxx
+    DB_PORT=xxxxxxxx
+    DB_NAME=xxxxxxx
+    DB_USER=xxxxxxxx
+    DB_PASS=xxxxxxxxx
 
+    JWT_SECRET=xxxxxxxx
+
+    # TMDB API Key
+    TMDB_API_KEY=xxxxxxxxx
+ ```
+4. Avvia il file server.js
+   ```bash
+   node server.js
+    ```
