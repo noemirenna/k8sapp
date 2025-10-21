@@ -56,6 +56,5 @@ Gli utenti possono registrarsi, autenticarsi, cercare contenuti tramite l’API 
 1. Clona il repository:
    ```bash
    git clone https://github.com/giadaperno/Node_esameint.git
-
-   ---
+    ```
 
